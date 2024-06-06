@@ -1,11 +1,11 @@
 
-# Project Title
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CiriLLeo/AppMooveTS/main/src/img/icon64px.png" />
+</p>
 
-A brief description of what this project does and who it's for
-
-
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
-
+<p align="center">
+    <h1 align="center">AppMooveTS</h1>
+</p>
 
 ## Badges
 
@@ -20,10 +20,19 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 
 > - [Overview](#overview)
 > - [Installation](#installation)
-> - [Run Locally](#Run-Locally)
-> - [Deployment](#Deployment)
+> - [Run Locally](#run-locally)
+> - [Deployment](#deployment)
 > - [License](#license)
+
 ## Overview
+
+
+AppMooveTS makes micromobility sustainable, shared, and convenient by facilitating access to eco-friendly transportation. <br>
+Thanks to TypeScript, it efficiently manages available vehicles, user bookings, and city operations. <br><br>
+***Final project of the Start 2 Impact TS course***
+
+
+
 ## Installation
 
 Install my-project with npm
