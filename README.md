@@ -9,18 +9,17 @@
 
 ## Badges
 
-Add badges from somewhere like: [shields.io](https://shields.io/)
-
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![CodePen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
 
 ## Appendix
 
 > - [Overview](#overview)
-> - [Installation](#installation)
 > - [Run Locally](#run-locally)
+> - [Installation](#installation)
+> - [Running Tests](#running-tests)
 > - [Deployment](#deployment)
 > - [License](#license)
 
@@ -30,53 +29,55 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 AppMooveTS makes micromobility sustainable, shared, and convenient by facilitating access to eco-friendly transportation. <br>
 Thanks to TypeScript, it efficiently manages available vehicles, user bookings, and city operations. <br><br>
 ***Final project of the Start 2 Impact TS course***
+    
+## Run Locally
 
+1. Clone the repository:
 
+```sh
+git clone https://github.com/CiriLLeo/AppMooveTS
+```
 
 ## Installation
 
 Install my-project with npm
 
 ```bash
-  npm install my-project
-  cd my-project
-```
-    
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://link-to-project
-```
-
-Go to the project directory
-
-```bash
-  cd my-project
-```
-
-Install dependencies
-
-```bash
   npm install
+  cd AppMooveTS
+```
+Change to the project directory:
+
+```sh
+cd mooveTypeScript
 ```
 
-Start the server
+Install the dependencies:
+
+```sh
+npm install
+```
+
+Compile the TypeScript code:
+
+```sh
+npx tsc
+```
+
+## Running Tests
+
+To run tests, run the following command
 
 ```bash
-  npm run start
+  node src/app.js
 ```
 
 
 ## Deployment
 
-To deploy this project run
+Go on CodePen to see a basic implementation of some functionalities of the AppMooveTS. Feel free to check it out and play around:
 
-```bash
-  npm run deploy
-```
-
+https://codepen.io/CiriLLeo/pen/abrwoap
 
 ## License
 
