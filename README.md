@@ -20,7 +20,6 @@
 > - [Installation](#installation)
 > - [Running Tests](#running-tests)
 > - [Deployment](#deployment)
-> - [License](#license)
 
 ## Overview
 
@@ -77,8 +76,4 @@ To run tests, run the following command
 Go on CodePen to see a basic implementation of some functionalities of the AppMooveTS. Feel free to check it out and play around:
 
 https://codepen.io/CiriLLeo/pen/abrwoap
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
 
